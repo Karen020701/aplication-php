@@ -23,3 +23,5 @@ In the browser enter http://localhost:8080 and the message “Hello World php la
 **Deployment on Railway**  
 This project was deployed in Railway, the connection to the Railway account and access to the repository in Github was done.   
 Once deployed I generate the link: https://aplication-php-production.up.railway.app/
+
+![image](https://github.com/user-attachments/assets/33dc86e5-a4fc-4ed3-8de4-85abe4ee18e9)
