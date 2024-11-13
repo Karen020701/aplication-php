@@ -6,7 +6,9 @@ This is a basic "Hello World" project in the PHP programming language. We will u
 
 It is required to verify the installation of the PHP extension on your computer. To check, open a terminal and run:
 
-` php --version `
+```bash
+php --version
+```
 
 If PHP is not installed, you can download it by installing XAMPP, which includes PHP, from [https://www.apachefriends.org/es/index.html](https://www.apachefriends.org/es/index.html).
 
@@ -14,11 +16,15 @@ If PHP is not installed, you can download it by installing XAMPP, which includes
 
 1. Locate a folder of your choice and clone the project with the following command:
 
-    ` git clone https://github.com/Karen020701/aplication-php.git `
+```bash
+git clone https://github.com/Karen020701/aplication-php.git
+```
 
 2. To run the project locally, navigate to the project folder and execute:
 
-    ` php -S localhost:8080 `
+```bash
+php -S localhost:8080
+```
 
 3. Then, in your browser, go to [http://localhost:8080](http://localhost:8080). You should see the message: **"Hello World php language"**.
 
@@ -28,11 +34,15 @@ To run this project in a Docker container:
 
 1. First, pull the Docker image. In the project directory, download the image with the command:
 
-    ` docker pull karenchicaiza/aplicationphp `
+```bash
+docker pull karenchicaiza/aplicationphp
+```
 
 2. To start the container, use the command:
 
-    ` docker run -p 8080:8080 karenchicaiza/aplicationphp `
+```bash
+docker run -p 8080:8080 karenchicaiza/aplicationphp
+```
 
 3. In your browser, go to [http://localhost:8080](http://localhost:8080) and you will see the message: **"Hello World php language"**.
 
